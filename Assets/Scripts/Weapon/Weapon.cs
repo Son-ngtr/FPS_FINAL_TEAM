@@ -93,7 +93,7 @@ public class Weapon : MonoBehaviour
             Fire();
         }
 
-        if (Input.GetKeyDown(KeyCode.R) && mag > 0 && ammo < magAmmo)
+        if ((Input.GetKeyDown(KeyCode.R) || ammo == 0) && mag > 0 && ammo < magAmmo)
         {
             Reload();
         }

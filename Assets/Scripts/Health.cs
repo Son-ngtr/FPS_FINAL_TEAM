@@ -14,26 +14,17 @@ public class Health : MonoBehaviour
     public RectTransform healthBar;
     private float originalHealthBarSize;
 
-    PhotonView PV;
 
     [Header("UI")]
     
     public TextMeshProUGUI healthText;
 
-    void Awake()
-    {
-        PV = GetComponent<PhotonView>();
-    }
 
     private void Start()
     {
         originalHealthBarSize = healthBar.sizeDelta.x;
     }
 
-    private void Update()
-    {
-        //healthBar.sizeDelta = new Vector2(originalHealthBarSize * health / 100f, healthBar.sizeDelta.y);
-    }
 
     [PunRPC]
     public void TakeDamage(int _damage)
