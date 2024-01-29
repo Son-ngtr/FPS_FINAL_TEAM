@@ -2276,9 +2276,6 @@ PrefabInstance:
       addedObject: {fileID: 1805738094645616241}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: bbed29811a4bae945bf2e8366033c659, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2749048708780013790}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: bbed29811a4bae945bf2e8366033c659, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1461141962582208558}
   m_SourcePrefab: {fileID: 100100000, guid: bbed29811a4bae945bf2e8366033c659, type: 3}
 --- !u!1 &4680411345523080951 stripped
@@ -2317,34 +2314,6 @@ MonoBehaviour:
   swayClamp: 0.02
   snoothing: 3
   origin: {x: 0, y: 0, z: 0}
---- !u!114 &2749048708780013790
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4680411345523080951}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0893667f2231e074ca1575540d5e6913, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ammoCirle: {fileID: 5102767686792333344}
-  damage: 10
-  camera: {fileID: 4962439332862202559}
-  fireRate: 3
-  hitVFX: {fileID: 2708598583397607911, guid: 6398d43fe79ea0140913dc5530c646af, type: 3}
-  mag: 3
-  ammo: 7
-  magAmmo: 7
-  magText: {fileID: 6222192916939605026}
-  ammoText: {fileID: 7878192157567183907}
-  animation: {fileID: 4278303117346652389}
-  reload: {fileID: 7400000, guid: 362e0f6af9ff53d4788cb46c0320a95f, type: 2}
-  recoverPercent: 0.7
-  recoilUp: 0.02
-  recoilBack: 0
-  recovering: 0
 --- !u!114 &1461141962582208558
 MonoBehaviour:
   m_ObjectHideFlags: 0

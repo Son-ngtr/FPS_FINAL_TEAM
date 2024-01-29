@@ -44,5 +44,4 @@ public class PlayerSetup : MonoBehaviour
         nicknameText.text = _name;
     }
 
-    
 }
